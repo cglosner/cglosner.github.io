@@ -24,7 +24,6 @@ I pursue this through three directions:
 - **Jan 2025:** Received 2025 NDSS Student Fellowship.
 - **2025:** Our paper on *Adding Spatial Memory Safety to EDK II through Checked C* was accepted to **ISSTA 2025**.
 - **Nov 2024:** Our paper *FuzzUEr* was accepted to **NDSS 2025**.
-- **2025:** Paper on Bootloader and Boot-Chain Security (SoK) under review.
 
 ## Selected Publications
 

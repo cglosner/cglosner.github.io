@@ -26,7 +26,6 @@ Research Experience
   * Developed FuzzUEr, a novel fuzzing framework for UEFI firmware interfaces on EDK-II, discovering 20 zero-day security vulnerabilities
   * Extended 3C (automated Checked C conversion tool) to operate within UEFI's freestanding environment, enabling automated memory-safety guarantees for firmware
   * Adapted compiler-based sanitizers (e.g., AddressSanitizer) to UEFI by introducing firmware-compatible shadow memory and custom runtime support
-  * Conducted a systematization-of-knowledge study across bootloader architectures (paper under review)
   * Contributing to kernel CVE analysis research for Linux and Android kernel exploitation
 
 * **Researcher**, Rensselaer Polytechnic Institute (Fall 2019 – Spring 2020)
