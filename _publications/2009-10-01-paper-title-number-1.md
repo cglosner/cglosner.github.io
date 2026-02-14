@@ -1,15 +1,14 @@
 ---
 title: "Adding Spatial Memory Safety to EDK II through Checked C (Experience Paper)"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: /publication/2025-06-24-checked-c-edk2
+excerpt: 'This paper presents our experience adding spatial memory safety guarantees to the UEFI firmware reference implementation (EDK II) using Checked C, a backward-compatible extension of C with bounds-checked pointer types.'
 date: 2025-06-24
-venue: 'ISSTA 2025'
-paperurl: 'http://cglosner.github.io/files/Converting_EDK_II_to_Checked_C_with_3C.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2025)'
+paperurl: 'https://cglosner.github.io/files/Converting_EDK_II_to_Checked_C_with_3C.pdf'
+citation: 'Sourag Cherupattamoolayil, Arunkumar Bhattar, Connor Glosner, Aravind Machiry. &quot;Adding Spatial Memory Safety to EDK II through Checked C (Experience Paper).&quot; <i>ISSTA 2025</i>.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[pdf](http://cglosner.github.io/files/Converting_EDK_II_to_Checked_C_with_3C.pdf)
+We extended 3C — an automated Checked C conversion tool — to operate within UEFI's freestanding environment. This required redesigning bounds models, annotations, and runtime assumptions so that type-safe code could compile and execute within firmware constraints. The results show that strong, automated memory-safety guarantees are achievable even in early-boot software.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper](/files/Converting_EDK_II_to_Checked_C_with_3C.pdf)

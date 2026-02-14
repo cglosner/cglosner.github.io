@@ -1,7 +1,22 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Checked C for UEFI Firmware"
+excerpt: "Compiler-based vulnerability prevention for firmware: extending 3C to bring automated spatial memory safety to EDK II. Published at ISSTA 2025."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<h2>Compiler-Based Vulnerability Prevention for Firmware</h2>
+
+<p>We extended <a href="https://github.com/correctcomputation/checkedc-clang">3C</a> &mdash; an automated <a href="https://github.com/microsoft/checkedc">Checked C</a> conversion tool &mdash; to operate within UEFI's freestanding environment. This required redesigning bounds models, annotations, and runtime assumptions so that type-safe code could compile and execute within firmware constraints.</p>
+
+<h3>Key Contributions</h3>
+<ul>
+  <li>Redesigned bounds models and annotations for UEFI's freestanding compilation environment</li>
+  <li>Enabled automated memory-safety guarantees for early-boot software</li>
+  <li>Demonstrated that strong, automated spatial memory safety is achievable even in firmware</li>
+  <li>Published as an Experience Paper at <strong>ISSTA 2025</strong></li>
+</ul>
+
+<h3>Technologies</h3>
+<p>C, Checked C, 3C, LLVM/Clang, EDK-II/UEFI</p>
+
+<p><a href="/files/Converting_EDK_II_to_Checked_C_with_3C.pdf">[Paper]</a></p>

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Connor Glosner"
 title_separator          : "-"
 name                     : &name "Connor Glosner"
-description              : &description "personal description"
+description              : &description "Ph.D. student at Purdue University researching systems and firmware security"
 url                      : https://cglosner.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cglosner/cglosner.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Connor Glosner"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Ph.D. Student in ECE at Purdue University. Securing the hardware-firmware boundary from power-on."
   location         : "West Lafayette, IN"
   employer         : "Purdue University"
   pubmed           : 
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "connor-glosner-709923177"
   orcid            : "https://orcid.org/0009-0009-6314-331X"
   pinterest        :
   soundcloud       :
@@ -228,22 +228,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
-  # - scope:
-  #     path: ""
-  #     type: talks
-  #   values:
-  #     layout: talk
-  #     author_profile: true
-  #     share: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
